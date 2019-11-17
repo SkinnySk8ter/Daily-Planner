@@ -1,14 +1,12 @@
 # Daily-Planner
-<<<<<<< HEAD
-=======
+
 
 
 Table Of Contents
 [General Info]
-[Assignment Deatails]
 [how to setup]
 [Look Out!]
-[General Info]
+
 Hello Again! We are back and this time we are creating a daily planner to assist you with your day to day progress and make sure that you are able to stay on top of things! Within this document you will be able to change your assignments in real time and also have the ability toi be notified via color coding when an event has passed. 
 
 [How To Setup]
@@ -26,4 +24,4 @@ The files within this document are going to be updated on a regular basis! Howev
 
 [Look-Out!]
 As stated before the page is still a work in progress! Currently working on a fix to making the javascript file readable without the amount of errors that were being presented. Currently working on a fix to make sure that the text does not dissappear when the page is refreshed! (stay tuned an update is coming soon!)
->>>>>>> eb85d2b67b49e8539c6e2a74e5d8e637059a703a
+
