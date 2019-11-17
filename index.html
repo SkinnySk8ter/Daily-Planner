@@ -36,9 +36,9 @@
                 function myFunction()
                 {
                     var text = document.getElementById("text1").value;
-                    localStorage.setItem("inputbox", text);
-                    console.log("text1");
-                    $("#inputbox").val("");
+                    localStorage.setItem("text1", "");
+                    console.log(text);
+                    document.getElementById("text1").innerText = (localStorage)
                     
                     
                   
@@ -50,41 +50,154 @@
             <br>
             <br>
             <button class="timebtn">10am</button> <input type="text" class="inputbox" id="text2"> <button class="save2"
-                id="save">save</button>
+                id="save" onclick="myFunctiontwo()" >save</button>
+                <script>
+                        function myFunctiontwo()
+                        {
+                            var text = document.getElementById("text2").value;
+                            localStorage.setItem("text2", "");
+                            console.log(text);
+                            document.getElementById("text2").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">11am</button> <input type="text" class="inputbox" id="text3"> <button class="save3"
-                id="save">save</button>
+                id="save" onclick="myFunctionthree()">save</button>
+                <script>
+                        function myFunctionthree()
+                        {
+                            var text = document.getElementById("text3").value;
+                            localStorage.setItem("text3", "");
+                            console.log(text);
+                            document.getElementById("text3").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
+
             <br>
             <br>
             <button class="timebtn">12pm</button> <input type="text" class="inputbox" id="text4"> <button class="save4"
-                id="save">save</button>
+                id="save" onclick="myFunctionfour()">save</button>
+                <script>
+                        function myFunctionfour()
+                        {
+                            var text = document.getElementById("text4").value;
+                            localStorage.setItem("text4", "");
+                            console.log(text);
+                            document.getElementById("text4").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">1pm</button> <input type="text" class="inputbox" id="text5"> <button class="save5"
-                id="save">save</button>
+                id="save" onclick="myFunctionfive()">save</button>
+                <script>
+                        function myFunctionfive()
+                        {
+                            var text = document.getElementById("text5").value;
+                            localStorage.setItem("text5", "");
+                            console.log(text);
+                            document.getElementById("text5").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">2pm</button> <input type="text" class="inputbox" id="text6"> <button class="save6"
-                id="save">save</button>
+                id="save" onclick="myFunctionsix()">save</button>
+                <script>
+                        function myFunctionsix()
+                        {
+                            var text = document.getElementById("text6").value;
+                            localStorage.setItem("text6", "");
+                            console.log(text);
+                            document.getElementById("text6").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">3pm</button> <input type="text" class="inputbox" id="text7"> <button class="save7"
-                id="save">save</button>
+                id="save" onclick="myFunctionseven()">save</button>
+                <script>
+                        function myFunctionseven()
+                        {
+                            var text = document.getElementById("text7").value;
+                            localStorage.setItem("text7", "");
+                            console.log(text);
+                            document.getElementById("text7").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">4pm</button> <input type="text" class="inputbox" id="text8"> <button class="save8"
-                id="save">save</button>
+                id="save" onclick="myFunctioneight()">save</button>
+                <script>
+                        function myFunctioneight()
+                        {
+                            var text = document.getElementById("text8").value;
+                            localStorage.setItem("text8", "");
+                            console.log(text);
+                            document.getElementById("text8").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
             <br>
             <br>
 
             <button class="timebtn">5pm</button> <input type="text" class="inputbox" id="text9"> <button class="save9"
-                id="save">save</button>
+                id="save" onclick="myFunctionNine()">save</button>
+                <script>
+                        function myFunctionNine()
+                        {
+                            var text = document.getElementById("text9").value;
+                            localStorage.setItem("text9", "");
+                            console.log(text);
+                            document.getElementById("text9").innerText = (localStorage)
+                            
+                            
+                          
+                        
+                        }
+        
+                    </script>
 
         </ul>
     </div>
