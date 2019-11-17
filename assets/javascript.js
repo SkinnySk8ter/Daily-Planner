@@ -1,6 +1,20 @@
 // make the text boxes interactive with the time of day!! (should change colors to reflect past present and future) set up an .addeventlistener????
 
+var d = new Date();
+var n = d.getHours();
 
+function scheduletimer(){
+    var i = 0
+    for (i = 0; i => n; i++) {
+        if (i === n) {
+            document.getElementById("text1").style.backgroundColor= "red"
+            
+        }
+      
+        
+    }
+
+}
 
 // make the save button save the input text to local storage. 
 
