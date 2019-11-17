@@ -30,20 +30,21 @@
         <!--second div to store buttons, input boxes, save buttons-->
 
         <ul>
-            <button class="timebtn">9am</button> <input type="text" class="inputbox" id="text1"> <button class="save1"
+            <button class="timebtn">9am</button> <input type="text" class="inputbox" id="text1"><button class="save1"
                 id="save" onclick="myFunction()">save</button>
             <script>
                 function myFunction()
                 {
-                    var text = document.getElementById("text1");
-                    localStorage.setItem("textinput", text);
-                    console.log(text);
+                    var text = document.getElementById("text1").value;
+                    localStorage.setItem("inputbox", text);
+                    console.log("text1");
+                    $("#inputbox").val("");
                     
-                    // var someVarName = "value";
-                    //     localStorage.setItem("someVarKey", someVarName);
                     
+                  
                 
                 }
+
             </script>
 
             <br>
