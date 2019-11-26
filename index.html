@@ -30,8 +30,9 @@
         <!--second div to store buttons, input boxes, save buttons-->
 
         <ul>
-            <button class="timebtn">9am</button> <input type="text" class="inputbox" id="text1"><button class="save1"
-                id="save" onclick="myFunction()">save</button>
+            <button class="timebtn">9am</button> 
+            <input type="textarea" class="inputbox" id="text1"/>
+            <button class="save1" id="save1">save</button>
             <script>
                 function myFunction()
                 {
@@ -46,17 +47,17 @@
                     
                 }
 
-                window.onload = function newthing() 
-                {
+                // window.onload = function newthing() 
+                // {
 
-                document.getElementById("text1").value = localStorage.getItem("");
+                // document.getElementById("text1").value = localStorage.getItem("");
 
                 
-                }   
-                function reloadPage(){
-                localStorage.setItem("text1", text);
-	            location.reload();
-                }
+                // }   
+                // function reloadPage(){
+                // localStorage.setItem("text1", text);
+	            // location.reload();
+                // }
                 
                 
                 //     var name = localStorage.getItem("text1");
@@ -75,7 +76,7 @@
                         function myFunctiontwo()
                         {
                             var text = document.getElementById("text2").value;
-                            localStorage.setItem("text2", "");
+                            window.localStorage.setItem("text2",JSON.stringify(text) );
                             console.log(text);
                             window.localStorage.getItem("text2") 
                             return this.value
@@ -95,7 +96,7 @@
                         function myFunctionthree()
                         {
                             var text = document.getElementById("text3").value;
-                            localStorage.setItem("text3", "");
+                            window.localStorage.setItem("text3", JSON.stringify(text));
                             console.log(text);
                             window.localStorage.getItem("text3") 
                             return this.value
@@ -115,7 +116,7 @@
                         function myFunctionfour()
                         {
                             var text = document.getElementById("text4").value;
-                            localStorage.setItem("text4", "");
+                            window.localStorage.setItem("text4", JSON.stringify(text));
                             console.log(text);
                             window.localStorage.getItem("text4") 
                             return this.value
@@ -135,7 +136,7 @@
                         function myFunctionfive()
                         {
                             var text = document.getElementById("text5").value;
-                            localStorage.setItem("text5", "");
+                            window.localStorage.setItem("text5", JSON.stringify(text));
                             console.log(text);
                             window.localStorage.getItem("text5") 
                             return this.value
@@ -155,7 +156,7 @@
                         function myFunctionsix()
                         {
                             var text = document.getElementById("text6").value;
-                            localStorage.setItem("text6", "");
+                            localStorage.setItem("text6",JSON.stringify(text) );
                             console.log(text);
                             window.localStorage.getItem("text6") 
                             return this.value
@@ -251,6 +252,11 @@
         
         THEN events are saved in the timeblock for that hour
      -->
+     <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous"
+   ></script>
     <script src="assets/javascript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
