@@ -176,11 +176,10 @@
                         function myFunctionseven()
                         {
                             var text = document.getElementById("text7").value;
-                            localStorage.setItem("text7", "");
+                            localStorage.setItem("text7",JSON.stringify(text) );
                             console.log(text);
                             window.localStorage.getItem("text7") 
                             return this.value
-                            
                             
                           
                         
@@ -196,12 +195,10 @@
                         function myFunctioneight()
                         {
                             var text = document.getElementById("text8").value;
-                            localStorage.setItem("text8", "");
+                            localStorage.setItem("text8",JSON.stringify(text) );
                             console.log(text);
                             window.localStorage.getItem("text8") 
                             return this.value
-                            
-                            
                           
                         
                         }
@@ -216,7 +213,7 @@
                         function myFunctionNine()
                         {
                             var text = document.getElementById("text9").value;
-                            localStorage.setItem("text9", "");
+                            localStorage.setItem("text9",JSON.stringify(text) );
                             console.log(text);
                             window.localStorage.getItem("text9") 
                             return this.value
