@@ -30,21 +30,20 @@
         <!--second div to store buttons, input boxes, save buttons-->
 
         <ul>
-            <button class="timebtn">9am</button> 
-            <input type="textarea" class="inputbox" id="text1"/>
+            <button class="timebtn">9am</button>
+            <input type="textarea" class="inputbox" id="text1" />
             <button class="save1" id="save1">save</button>
             <script>
-                function myFunction()
-                {
+                function myFunction() {
                     // var text = $("#text1").val();
                     var text = document.getElementById("text1").value;
-                    window.localStorage.setItem("text1",JSON.stringify(text));
+                    window.localStorage.setItem("text1", JSON.stringify(text));
                     console.log(text);
-                    window.localStorage.getItem("text1") 
+                    window.localStorage.getItem("text1")
                     return this.value
                     // document.getElementById("text1").innerText = var newtask;
-                   
-                    
+
+
                 }
 
                 // window.onload = function newthing() 
@@ -52,18 +51,18 @@
 
                 // document.getElementById("text1").value = localStorage.getItem("");
 
-                
+
                 // }   
                 // function reloadPage(){
                 // localStorage.setItem("text1", text);
 	            // location.reload();
                 // }
-                
-                
+
+
                 //     var name = localStorage.getItem("text1");
                 //     if (name !== null) $("").val(name);
                 // }
-                    
+
 
 
             </script>
@@ -71,159 +70,151 @@
             <br>
             <br>
             <button class="timebtn">10am</button> <input type="text" class="inputbox" id="text2"> <button class="save2"
-                id="save" onclick="myFunctiontwo()" >save</button>
-                <script>
-                        function myFunctiontwo()
-                        {
-                            var text = document.getElementById("text2").value;
-                            window.localStorage.setItem("text2",JSON.stringify(text) );
-                            console.log(text);
-                            window.localStorage.getItem("text2") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+                id="save" onclick="myFunctiontwo()">save</button>
+            <script>
+                function myFunctiontwo() {
+                    var text = document.getElementById("text2").value;
+                    window.localStorage.setItem("text2", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text2")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">11am</button> <input type="text" class="inputbox" id="text3"> <button class="save3"
                 id="save" onclick="myFunctionthree()">save</button>
-                <script>
-                        function myFunctionthree()
-                        {
-                            var text = document.getElementById("text3").value;
-                            window.localStorage.setItem("text3", JSON.stringify(text));
-                            console.log(text);
-                            window.localStorage.getItem("text3") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionthree() {
+                    var text = document.getElementById("text3").value;
+                    window.localStorage.setItem("text3", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text3")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
 
             <br>
             <br>
             <button class="timebtn">12pm</button> <input type="text" class="inputbox" id="text4"> <button class="save4"
                 id="save" onclick="myFunctionfour()">save</button>
-                <script>
-                        function myFunctionfour()
-                        {
-                            var text = document.getElementById("text4").value;
-                            window.localStorage.setItem("text4", JSON.stringify(text));
-                            console.log(text);
-                            window.localStorage.getItem("text4") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionfour() {
+                    var text = document.getElementById("text4").value;
+                    window.localStorage.setItem("text4", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text4")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">1pm</button> <input type="text" class="inputbox" id="text5"> <button class="save5"
                 id="save" onclick="myFunctionfive()">save</button>
-                <script>
-                        function myFunctionfive()
-                        {
-                            var text = document.getElementById("text5").value;
-                            window.localStorage.setItem("text5", JSON.stringify(text));
-                            console.log(text);
-                            window.localStorage.getItem("text5") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionfive() {
+                    var text = document.getElementById("text5").value;
+                    window.localStorage.setItem("text5", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text5")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">2pm</button> <input type="text" class="inputbox" id="text6"> <button class="save6"
                 id="save" onclick="myFunctionsix()">save</button>
-                <script>
-                        function myFunctionsix()
-                        {
-                            var text = document.getElementById("text6").value;
-                            localStorage.setItem("text6",JSON.stringify(text) );
-                            console.log(text);
-                            window.localStorage.getItem("text6") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionsix() {
+                    var text = document.getElementById("text6").value;
+                    localStorage.setItem("text6", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text6")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">3pm</button> <input type="text" class="inputbox" id="text7"> <button class="save7"
                 id="save" onclick="myFunctionseven()">save</button>
-                <script>
-                        function myFunctionseven()
-                        {
-                            var text = document.getElementById("text7").value;
-                            localStorage.setItem("text7",JSON.stringify(text) );
-                            console.log(text);
-                            window.localStorage.getItem("text7") 
-                            return this.value
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionseven() {
+                    var text = document.getElementById("text7").value;
+                    localStorage.setItem("text7", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text7")
+                    return this.value
+
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">4pm</button> <input type="text" class="inputbox" id="text8"> <button class="save8"
                 id="save" onclick="myFunctioneight()">save</button>
-                <script>
-                        function myFunctioneight()
-                        {
-                            var text = document.getElementById("text8").value;
-                            localStorage.setItem("text8",JSON.stringify(text) );
-                            console.log(text);
-                            window.localStorage.getItem("text8") 
-                            return this.value
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctioneight() {
+                    var text = document.getElementById("text8").value;
+                    localStorage.setItem("text8", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text8")
+                    return this.value
+
+
+                }
+
+            </script>
             <br>
             <br>
 
             <button class="timebtn">5pm</button> <input type="text" class="inputbox" id="text9"> <button class="save9"
                 id="save" onclick="myFunctionNine()">save</button>
-                <script>
-                        function myFunctionNine()
-                        {
-                            var text = document.getElementById("text9").value;
-                            localStorage.setItem("text9",JSON.stringify(text) );
-                            console.log(text);
-                            window.localStorage.getItem("text9") 
-                            return this.value
-                            
-                            
-                          
-                        
-                        }
-        
-                    </script>
+            <script>
+                function myFunctionNine() {
+                    var text = document.getElementById("text9").value;
+                    localStorage.setItem("text9", JSON.stringify(text));
+                    console.log(text);
+                    window.localStorage.getItem("text9")
+                    return this.value
+
+
+
+
+                }
+
+            </script>
 
         </ul>
     </div>
@@ -249,11 +240,8 @@
         
         THEN events are saved in the timeblock for that hour
      -->
-     <script
-     src="https://code.jquery.com/jquery-3.4.1.min.js"
-     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-     crossorigin="anonymous"
-   ></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </body>
