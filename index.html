@@ -31,41 +31,18 @@
 
         <ul>
             <button class="timebtn">9am</button>
-            <input type="textarea" class="inputbox" id="text1" />
+            <input type="textarea" class="inputbox" id="text1">
             <button class="save1" id="save1">save</button>
             <script>
                 function myFunction() {
-                    // var text = $("#text1").val();
+                    
                     var text = document.getElementById("text1").value;
                     window.localStorage.setItem("text1", JSON.stringify(text));
                     console.log(text);
                     window.localStorage.getItem("text1")
                     return this.value
-                    // document.getElementById("text1").innerText = var newtask;
-
-
-                }
-
-                // window.onload = function newthing() 
-                // {
-
-                // document.getElementById("text1").value = localStorage.getItem("");
-
-
-                // }   
-                // function reloadPage(){
-                // localStorage.setItem("text1", text);
-	            // location.reload();
-                // }
-
-
-                //     var name = localStorage.getItem("text1");
-                //     if (name !== null) $("").val(name);
-                // }
-
-
-
-            </script>
+                     }
+             </script>
 
             <br>
             <br>

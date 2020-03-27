@@ -37,7 +37,7 @@
         var newItem = localStorage.getItem("text2");
         console.log(newItem);
         $("#text2").val(newItem)
-        console.log($("#text1").val());
+        console.log($("#text2").val());
 
     }
     getinfo2();
@@ -88,8 +88,6 @@
     }
     getinfo7();
 
-    
-
     function getinfo8(){
 
         var newItem = localStorage.getItem("text8");
@@ -99,8 +97,6 @@
     }
     getinfo8();
 
-    
-
     function getinfo9(){
 
         var newItem = localStorage.getItem("text9");
@@ -109,36 +105,3 @@
         console.log($("#text9").val());
     }
     getinfo9();
-
-    
-
-    // scheduletimer();
-   
-    
-
-
-
-        
-
-// }
-// $("#save1").click(function(){
-//     var clickthis = window.localStorage.setItem("text1", JSON.stringify(""))
-//     clickthis()
-
-// })
-
-// $("#save1").click(function myFunction()
-//                 {
-//                     // var text = $("#text1").val();
-//                     console.log(this)
-//                     var text = document.getElementById("text1").value;
-
-//                     window.localStorage.setItem("text1",JSON.stringify(text));
-//                     console.log(text);
-//                    // window.localStorage.getItem("text1") 
-//                    // return this.value
-//                     // document.getElementById("text1").innerText = var newtask;
-                   
-                    
-//                 }
-// )
