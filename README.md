@@ -16,7 +16,7 @@ The files within this document are going to be updated on a regular basis! Howev
 
 2. In order to effectively save your results...make sure you delete EVERYTHING in the text box before hitting the SAVE button. The save button automatically adds quotation marks after you hit it and refresh the page. 
 
-3. The Javascript was originally located in a seperate file from the html doc. However, due to the errors that were received I decided to put the code of both html and javascript into one complete file and keep the style sheet seperate. In the future this will be addressed but for right now due to time this is here for the time being.
+3. Working on getting the text boxes to change colors depending on the time of day
 
 
 
