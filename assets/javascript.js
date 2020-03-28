@@ -105,3 +105,23 @@
         console.log($("#text9").val());
     }
     getinfo9();
+//color change function does not work 
+    // function setColors() {
+    //     for (i = 9; i < 18; i++) {
+    //         var h = moment().hour();
+    //         var id = "hr" + i;
+
+    //         if (h === i) {
+    //             $("#hour" + i).attr("style", "background-color: red");
+    //             $("#hr" + i).attr("style", "background-color: red");
+    //         }
+    //         else if (h > i) {
+    //             $("#hour" + i).attr("style", "background-color: WhiteSmoke");
+    //             $("#hr" + i).attr("style", "background-color: WhiteSmoke");
+    //         }
+    //         else {
+    //             $("#hour" + i).attr("style", "background-color: PaleGreen");
+    //             $("#hr" + i).attr("style", "background-color: PaleGreen");
+    //         }
+    //     }
+    // }
